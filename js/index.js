@@ -1,6 +1,6 @@
 $(function(){
 	var $height=$('.nav_bg').position().top;
-	var $tt=$('.nav_bg').outerHeight(true)
+	var $tt=$('.nav_bg').outerHeight(true)+1
 	$(document).scroll(function(){
 		var $top=$(document).scrollTop();
 		if($top>=$height){
